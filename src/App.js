@@ -73,7 +73,10 @@ const InputsContainer = styled.div`
 
   }
   input{
+    @media screen and (min-width: 800px) {
     width: 100px;
+  }
+    width: 50px;
     border-bottom: 2px solid red;
   }
 `
